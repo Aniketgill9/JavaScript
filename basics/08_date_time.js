@@ -8,10 +8,12 @@ console.log(myDate.toDateString()); // Get date in string format
 console.log(myDate.toTimeString()); // Get time in string format
 
 
-//time
+time
 console.log(myDate.getTime()); // Get time in milliseconds since January 1, 1970
 console.log(myDate.getDay()); // Get day of the week (0-6, where 0 is Sunday)
 console.log(myDate.getMinutes()); // Get current minutes (0-59)
 console.log(myDate.getSeconds()); // Get current seconds (0-59)
 console.log(myDate.getMilliseconds()); // Get current milliseconds (0-999)
 console.log(myDate.getUTCFullYear()); // Get current year in UTC
+console.log(myDate.getUTCHours()); // Get current hour in UTC
+console.log(myDate.getUTCMonth()); // Get current month in UTC (0-11)
